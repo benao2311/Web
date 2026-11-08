@@ -1,0 +1,14 @@
+CLIP PROPIO PARA GITHUB PAGES
+
+1. Descomprime este ZIP.
+2. En el repositorio Web, usa Add file > Upload files.
+3. Sube index.html, local.html, studio.html, la carpeta assets y los demás archivos extraídos a la RAÍZ. No subas el ZIP ni una carpeta que los contenga.
+4. Confirma con Commit changes.
+5. Abre Settings > Pages. En Build and deployment, Source: Deploy from a branch. Branch: main; carpeta: /(root). Guarda.
+6. Espera a que finalice la publicación en Actions y abre https://benao2311.github.io/Web/ . Si ves la página anterior, usa Ctrl+F5.
+
+Incluye .nojekyll; si tu explorador lo oculta, puedes crear un archivo vacío con ese nombre en GitHub. Si el repositorio contiene una configuración Jekyll anterior (_config.yml) o flujos de despliegue propios, revisa que no sustituyan estos archivos.
+
+No necesitas eliminar tus fuentes. index.html y assets deben quedar en la raíz elegida para Pages. Guarda una copia de cualquier index.html anterior antes de reemplazarlo.
+
+Esta es la interfaz compilada y el editor local. Los clips de demostración son ejemplos gráficos. La importación por enlaces, transcripción y generación automática requieren un servidor separado y una integración posterior. No pongas claves en el código público.
